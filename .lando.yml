@@ -1,0 +1,4 @@
+name: gutenberg-cipher
+recipe: lamp
+config:
+  webroot: .

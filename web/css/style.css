@@ -1,0 +1,56 @@
+body {
+  background-color: #fbfbfb;
+  padding-top: 50px;
+}
+
+.navbar-inverse {
+  background-color: #041e42;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li.active > a {
+  background-color: #05244f;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.navbar .container {
+  margin-top: 0px;
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  width: 100%;
+}
+
+label.error {
+  color: #a94442;
+}
+
+textarea.error {
+  border: 1px solid #a94442;
+}
+
+@media screen and (max-width: 767px) {
+  .form-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
