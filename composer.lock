@@ -978,16 +978,16 @@
         },
         {
             "name": "symfony/security-core",
-            "version": "v3.4.48",
+            "version": "v3.4.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "7e1a5269333d0d5a4844f03e11e4c41299e71f26"
+                "reference": "6eea784297bd604efc169e1fc6b63c55b25d5bc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/7e1a5269333d0d5a4844f03e11e4c41299e71f26",
-                "reference": "7e1a5269333d0d5a4844f03e11e4c41299e71f26",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/6eea784297bd604efc169e1fc6b63c55b25d5bc6",
+                "reference": "6eea784297bd604efc169e1fc6b63c55b25d5bc6",
                 "shasum": ""
             },
             "require": {
@@ -1037,7 +1037,7 @@
             "description": "Symfony Security Component - Core Library",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/security-core/tree/v3.4.48"
+                "source": "https://github.com/symfony/security-core/tree/v3.4.49"
             },
             "funding": [
                 {
@@ -1053,20 +1053,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-29T09:39:14+00:00"
+            "time": "2021-05-19T12:03:21+00:00"
         },
         {
             "name": "symfony/security-csrf",
-            "version": "v3.3.10",
+            "version": "v3.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-csrf.git",
-                "reference": "b1173f10be0aeae66d3f65792c1cf84838870712"
+                "reference": "fe9420bdbbd48ef580fa102525bf14e6fc5fb9bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-csrf/zipball/b1173f10be0aeae66d3f65792c1cf84838870712",
-                "reference": "b1173f10be0aeae66d3f65792c1cf84838870712",
+                "url": "https://api.github.com/repos/symfony/security-csrf/zipball/fe9420bdbbd48ef580fa102525bf14e6fc5fb9bf",
+                "reference": "fe9420bdbbd48ef580fa102525bf14e6fc5fb9bf",
                 "shasum": ""
             },
             "require": {
@@ -1075,8 +1075,11 @@
                 "symfony/polyfill-php70": "~1.0",
                 "symfony/security-core": "~2.8|~3.0"
             },
+            "conflict": {
+                "symfony/http-foundation": "<2.8.31|~3.3,<3.3.13|~3.4,<3.4-beta5"
+            },
             "require-dev": {
-                "symfony/http-foundation": "~2.8|~3.0"
+                "symfony/http-foundation": "^2.8.31|~3.3.13|~3.4-beta5"
             },
             "suggest": {
                 "symfony/http-foundation": "For using the class SessionTokenStorage."
@@ -1111,7 +1114,10 @@
             ],
             "description": "Symfony Security Component - CSRF Library",
             "homepage": "https://symfony.com",
-            "time": "2017-10-02T06:42:24+00:00"
+            "support": {
+                "source": "https://github.com/symfony/security-csrf/tree/3.3"
+            },
+            "time": "2017-11-16T16:14:18+00:00"
         },
         {
             "name": "symfony/templating",
@@ -2683,5 +2689,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.6.0"
 }
